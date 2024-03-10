@@ -1,0 +1,48 @@
+theme:
+  name: material
+  palette:
+    primary: white
+  logo: assets/logo.png
+  favicon: assets/favicon/favicon.ico
+  features:
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+nav:
+  - 'index.md'
+  - Getting Started:
+    - getting-started/index.md
+    - 'getting-started/backend.md'
+    - 'getting-started/jupyter-interface.md'
+    - 'getting-started/plugin.md'
+  - about.md
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+plugins:
+  - search
+  - privacy
+site_name: Tidal Tales
+copyright: "&copy; 2024 Michael Achmann-Denkler"
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/michaelachmann/
+    - icon: fontawesome/brands/x-twitter 
+      link: https://twitter.com/michael-achmann
+    - icon: fontawesome/brands/threads
+      link: https://threads.net/chaichy
+    - icon: fontawesome/solid/house
+      link: https://go.ur.de/michael-achmann
+  # consent:
+  #   title: Cookie consent
+  #   description: >- 
+  #     We use cookies to recognize your repeated visits and preferences, as well
+  #     as to measure the effectiveness of our documentation and whether users
+  #     find what they're searching for. With your consent, you're helping us to
+  #     make our documentation better.
