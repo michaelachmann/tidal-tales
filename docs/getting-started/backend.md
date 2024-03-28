@@ -50,3 +50,5 @@ Open the directory and install the dependencies  <br/>
 `firebase use --add`
 
 ## Use
+
+## Create a Credentials File
