@@ -1,6 +1,7 @@
 ---
 hide:
   - navigation
+title: About
 ---
 
 # About This Website
