@@ -6,16 +6,12 @@ theme:
   favicon: assets/favicon/favicon.ico
   features:
     - navigation.footer
-    - navigation.indexes
+#    - navigation.indexes
     - navigation.sections
     - navigation.tabs
 nav:
   - 'index.md'
-  - Getting Started:
-    - getting-started/index.md
-    - 'getting-started/backend.md'
-    - 'getting-started/jupyter-interface.md'
-    - 'getting-started/plugin.md'
+  - plugin.md
   - about.md
 markdown_extensions:
   - attr_list

@@ -6,20 +6,25 @@ hide:
 ![Image title](assets/logo.png){ align=right style="height:125px;width:125px" }
 
 # Welcome to Tidal Tales
-Tidal Tales is an innovative suite of tools designed to enable scientific research of Instagram Stories. Just as the tide ebbs and flows with predictable certainty, our project is built on the premise of capturing the transient yet impactful narratives that unfold on Instagram—twice a day, every day. This methodical approach ensures no story is missed, mirroring the natural rhythm of the tides in our quest to archive and analyze digital narratives.
+Tidal Tales is a project designed for social science research, focusing on the capture and analysis of ephemeral Instagram Stories. At its core is a custom Firefox extension that allows researchers to collect story metadata and media files directly onto their own computers, ensuring full control over data privacy and security. This extension, combined with manuals for effective data collection, provides a robust framework for conducting retrospective content analysis of Instagram Stories. Tidal Tales offers a secure and efficient method for archiving and studying transient digital narratives.
 
-## Workflow: Overview
-![](assets/tidal-tales-web.png){ align=center  }
+## Overview
+<div class="grid cards" markdown>
+
+-   :package:{ style="height:30px;width:30px" .middle } __Data Collection__{.middle}
+
+    ---
+
+    Our Firefox plugin facilitates data collection while browsing. Simply watch the Instagram Stories of your selected profiles to create your corpus. The plugin supports both one-time data collections and long-term studies, storing all data directly on your local machine.
+    [:octicons-arrow-right-24: Tidal Tales Plugin](plugin.md)
 
 
 
-### Get Started
+-   :file_cabinet:{ style="height:30px;width:30px" .middle } __Realtime Archival__{.middle}
 
-Embark on your research journey with Tidal Tales today. Explore our tools, discover new stories, and uncover the patterns that shape our digital and social worlds. Follow these steps to get started with your data collection: 
+    ---
 
-1. [Install your own firebase backend instance](getting-started/backend.md). 
-2. [Create a new project using the Jupyter Notebook](getting-started/jupyter-interface.md)
-3. [Install and Configure the Firefox Plugin](getting-started/plugin.md)
-4. Watch Stories
-5. [Export the collected data using the Jupyter Notebook](getting-started/jupyter-interface.md)
+    The Firefox plugin collects Instagram Stories as you watch them and stores both the media files (images and videos) and associated metadata directly on your computer. This ensures that all data remains securely under your control without reliance on external servers.
+    [:octicons-arrow-right-24: Data Archival](plugin.md#data)
 
+</div>
