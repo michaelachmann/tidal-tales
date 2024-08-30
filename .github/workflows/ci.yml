@@ -31,10 +31,14 @@ jobs:
 
       - run: pip install mkdocs-material 
 
+      - name: Build the site
+        run: mkdocs build
+
       - name: Copy CNAME file
         run: |
           if [ -f CNAME ]; then
             cp CNAME site/
           fi
 
-      - run: mkdocs gh-deploy --force
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force
