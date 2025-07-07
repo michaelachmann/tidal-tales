@@ -25,6 +25,40 @@ Tidal Tales is a project designed for social science research, focusing on the c
     ---
 
     The Firefox plugin collects Instagram Stories as you watch them and stores both the media files (images and videos) and associated metadata directly on your computer. This ensures that all data remains securely under your control without reliance on external servers.
-    [:octicons-arrow-right-24: Data Archival](plugin.md#data)
+    [:octicons-arrow-right-24: Data Schema](data-schema.md)
+
+-   :person_shrugging:{ style="height:30px;width:30px" .middle } __Why Stories Matter__{.middle}
+
+    ---
+
+    Why do Instagram Stories deserve their own research tools? Learn about the methodological motivations, sampling logic, and why ignoring ephemeral content introduces systematic bias in social media research.  
+    [:octicons-arrow-right-24: Rationale](research-methodology.md)
 
 </div>
+
+
+## Citation 
+```bibtex
+@misc{achmanndenkler2024preservingephemeralinstagramstory,
+      title={Preserving the Ephemeral: Instagram Story Archiving with the Tidal Tales Plugin}, 
+      author={Michael Achmann-Denkler and Christian Wolff},
+      year={2024},
+      eprint={2409.01880},
+      archivePrefix={arXiv},
+      primaryClass={cs.SI},
+      url={https://arxiv.org/abs/2409.01880}, 
+}
+
+@software{michael_achmann_denkler_2024_13383206,
+  author       = {Michael Achmann-Denkler},
+  title        = {michaelachmann/tidal-tales-plugin: First Tidal
+                   Tales Release
+                  },
+  month        = aug,
+  year         = 2024,
+  publisher    = {Zenodo},
+  version      = {v2.0.0},
+  doi          = {10.5281/zenodo.13383206},
+  url          = {https://doi.org/10.5281/zenodo.13383206},
+}
+```

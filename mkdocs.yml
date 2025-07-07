@@ -12,6 +12,9 @@ theme:
 nav:
   - 'index.md'
   - plugin.md
+  - research-methodology.md
+  - legal-ethics.md
+  - data-schema.md
   - about.md
 markdown_extensions:
   - attr_list
@@ -27,7 +30,7 @@ plugins:
   - search
   - privacy
 site_name: Tidal Tales
-copyright: "&copy; 2024 Michael Achmann-Denkler"
+copyright: "&copy; 2024-2025 Michael Achmann-Denkler"
 extra:
   social:
     - icon: fontawesome/brands/github 
